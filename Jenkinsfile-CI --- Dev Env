@@ -29,7 +29,7 @@ pipeline {
         
         stage('Checkout from Git') {                        
             steps {                                       
-                git branch: 'main', url: 'https://github.com/yash509/DevSecOps-CountryBank-WebApp-Deployment.git'
+                git branch: 'main', url: 'https://github.com/yash509/DevSecOps-Bsc-Bkgrnd-Gnrtr-Deployment.git'
             }
         }
         
